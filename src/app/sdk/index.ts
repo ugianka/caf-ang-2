@@ -44,6 +44,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { UserApi } from './services/custom/User';
 import { MessageApi } from './services/custom/Message';
+import { ServiceManagerApi } from './services/custom/ServiceManager';
 /**
 * Have Fun!!!
 * - Jon

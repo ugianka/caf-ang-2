@@ -1,0 +1,42 @@
+.conversation-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  max-height: 70%;
+}
+
+.out-message {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  //  background-color: rgba(255, 0, 0, 0.12);
+}
+
+.in-message {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  // background-color: rgba(0, 0, 255, 0.12);
+}
+
+.fumetto {
+  margin: 0.5em;
+  padding: 0.7em;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1em;
+  box-shadow: 0.3em 0.3em 0.1em rgba(0, 0, 0, 0.2);
+}
+
+.in-message .fumetto {
+  background-color: rgba(255, 250, 205, 0.72);
+  border-bottom-left-radius: 0px;
+}
+
+.out-message .fumetto {
+  background-color: rgba(235, 240, 205, 0.82);
+  border-bottom-right-radius: 0px;
+}

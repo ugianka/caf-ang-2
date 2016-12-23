@@ -1,0 +1,9 @@
+<input [(ngModel)]="inputMessage" />
+<button (click)="sendMessage()">send message</button>
+<div class="conversation-container">
+  <div class="sentence" [class.out-message]="isOut(msg)" [class.in-message]="!isOut(msg)" *ngFor="let msg of conversations">
+    <div class="fumetto">
+      {{msg.text}}
+    </div>
+  </div>
+</div>
