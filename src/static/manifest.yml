@@ -1,0 +1,5 @@
+applications:
+- name: caf-ang-2-s
+  random-route: true
+  memory: 64M
+  buildpack: staticfile_buildpack

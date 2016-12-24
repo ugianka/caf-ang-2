@@ -11,8 +11,8 @@ export class ConversationService {
   conversationContext: any = {};
 
   constructor(private _manager: ServiceManagerApi) {
-    // LoopBackConfig.setBaseURL("https://caf-lb-1.mybluemix.net");
-    LoopBackConfig.setBaseURL("http://127.0.0.1:3000");
+    LoopBackConfig.setBaseURL("https://caf-lb-1.mybluemix.net");
+    //LoopBackConfig.setBaseURL("http://127.0.0.1:3000");
     LoopBackConfig.setApiVersion('api');
   }
 
